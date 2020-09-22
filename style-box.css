@@ -1,0 +1,42 @@
+body {
+    background-color: silver;
+}
+.navbar-brand {
+    background-color: darkcyan;
+    padding: 5px 10px;
+    color: white !important;
+}
+.contact-form, .portfolio-form, .index-form {
+    margin-top: 50px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: gray;
+}
+.contact-form h1, .portfolio-form h1, .index-form  {
+    color: darkcyan;
+}
+.contact-form .btn-primary, .portfolio-form .btn-primary, .index-form .btn-primary {
+background-color: darkcyan;
+border-radius: 0;
+}
+
+.col-md-6 img {
+    margin-bottom: 30px
+}
+
+.index-form .col-md-6 img {
+float: left; 
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+.index-form .col-md-6 p {
+    margin-bottom: 0;
+padding-bottom: 0;
+text-indent: 20px;
+}
+
